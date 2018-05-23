@@ -355,7 +355,7 @@ print(w.strip('http://')) #delete sth
 |Tuple| tuple| b = (1,2.5, 'data')|
 |List|list|c = [1,2.5,'data']|
 |Dictionary|dict|d = {'Name': 'Kobe', 'Country':'US'}|
-|Set|set|e = set(['u','d','ud','d','du'])|
+|Set|set|e = set(['u','d','ud','du'])|
 
 * 元组（tuple）只有几种方法可以更改。
 * 列表（list）比元组更灵活。
