@@ -355,7 +355,7 @@ print(w.strip('http://')) #delete sth
 |Tuple| tuple| b = (1,2.5, 'data')|
 |List|list|c = [1,2.5,'data']|
 |Dictionary|dict|d = {'Name': 'Kobe', 'Country':'US'}|
-|Set|set|e = set(['u','d','ud','d','du'])|
+|Set|set|e = set(['u','d','ud','du'])|
 
 * 元组（tuple）只有几种方法可以更改。
 * 列表（list）比元组更灵活。
@@ -537,7 +537,7 @@ for i in range(300, 351):
         print (i)
         break
     else :
-        cantinue
+        continue
 ```
 ```python
 ```
@@ -600,12 +600,12 @@ print(c)
 ```python
    def MaxOfTwo(xl, x2 = 1): ...
 ```
-* Please do put your default arguments at the end of your funaion arguments.
+* Please do put your default arguments at the end of your function arguments.
 
 ```python
 ```
 ## Functions with two outputs
-* A funaion can also return two or more outputs. In that case you should write you code in the following:
+* A function can also return two or more outputs. In that case you should write you code in the following:
 ```python
 def  f (x1, x2,  x3, ...):
      ......
